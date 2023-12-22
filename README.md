@@ -6,5 +6,5 @@ Esto es un pequeño repositorio donde subo la informacion que voy recopilando (y
 
 # Paginas donde encuentro la informacion:
 <ul>
-  <li> <a href="https://aulab.es/guias-avanzadas/1/guia-html-y-css-en-espanol" target="_blank">Aulab hackademy</a></li>
+  <li> <a target="_blank" href="https://aulab.es/guias-avanzadas/1/guia-html-y-css-en-espanol">Aulab hackademy</a></li>
 </ul>
