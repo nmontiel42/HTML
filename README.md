@@ -4,7 +4,7 @@
 
 Esto es un pequeño repositorio donde subo la informacion que voy recopilando (y apendiendo) sobre HTML, junto a algunos codigos para tener esa informacion mas visual.
 
-#Paginas donde encuentro la informacion:
+# Paginas donde encuentro la informacion:
 <ul>
-  <li> <a href="https://aulab.es/guias-avanzadas/1/guia-html-y-css-en-espanol"></a></li>
+  <li> <a href="https://aulab.es/guias-avanzadas/1/guia-html-y-css-en-espanol">Aulab hackademy</a></li>
 </ul>
