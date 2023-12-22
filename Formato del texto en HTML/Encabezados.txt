@@ -1,0 +1,13 @@
+Los encabezados se usan para definir titulos y subtitulos en una pagina html.
+
+Son utiles en el lado del SEO, facilita y mejora la experiencia del usuario
+que visita una pagina.
+
+Es imporante urilizar las diferentes etiquetas de encabezados para mostrar la 
+estructura jerarquica de la pagina web.
+
+HTML define seis niveles de encabezados (h1, h2, h3, h4, h5, h6), expresadas
+en orden descendente de importancia.
+
+Solo puede haber un h1 por pagina html. Para aprovechar al maximo la funcion jerarquica,
+las dimensiones de los encabezados de nuestras etiquetas tambien nos ayudan.

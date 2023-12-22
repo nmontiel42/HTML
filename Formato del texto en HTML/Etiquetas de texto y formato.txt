@@ -1,0 +1,28 @@
+Las etiquetas necesarias para la integraacion de un texto en nuestra pagina 
+son principalmente los encabezados y los parrafos.
+
+El parrafo (<p></p>) tiene un comportamiento de bloqueo: agrega una linea en
+blanco antes y despues de cada elemento <p>. otra forma de hacerlo es usando <br>.
+
+Cada etiqueta tiene un sentido, que cambia el sentido mismo de lo que estamos escribiendo.
+
+La mejor practica es usar algunas etiquetas html para darle un valor semantico
+al formato de nuestro texto.
+
+[NEGRITA]
+
+Podemos utilizar la etiqueta <b></b> o <strong></strong>. Son visualmente identicas.
+
+La diferencia es que <strong> tiene un valor semantico, cambnia el significado 
+de nuestra palabra por esa etiqueta y asi cobra mas importancia a nivel SEO.
+
+[CURSIVA]
+
+Podemos usar <em></em> o <i></i>, pero <em> tiene valor semantico para el SEO.
+
+[CITACIONES]
+
+Puede ser una referencia a palabras de una tercera persona, o una referencia a un
+texto de una fuente externa a nuestra pagina web.
+
+Usamos <blockquote></blockquote>, que tambien tiene valor semantico.
