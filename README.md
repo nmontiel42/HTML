@@ -1,5 +1,5 @@
 <p>
-  <img src="https://i.pinimg.com/736x/93/4f/c2/934fc23b8db01e0113a8512fb6311d8f.jpg"/>
+  <img src="https://i.pinimg.com/originals/21/b6/d6/21b6d69f75f0d51063738aebaea3d46d.jpg"/>
 </p>
 
 Esto es un pequeño repositorio donde subo la informacion que voy recopilando (y apendiendo) sobre HTML, junto a algunos codigos para tener esa informacion mas visual.
