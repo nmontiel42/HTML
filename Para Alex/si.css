@@ -1,0 +1,79 @@
+body {
+    background: pink;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+p.bigger {
+    font-size: 50px;
+}
+
+.cat {
+    width: 500px;
+    height: 450px;
+}
+
+.container {
+    text-align: center;
+}
+
+.button,
+.button2,
+.button3 {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 50px;
+    cursor: pointer;
+    color: black;
+    border-radius: 25px;
+    transition: transform 0.3s ease;
+    /* Añade una transición suave al efecto */
+}
+
+.button3:hover {
+    background-color: #ADD8E6;
+}
+
+.button2:hover {
+    background-color: #98FB98;
+}
+
+.button:hover {
+    background-color: #C18FFF;
+}
+
+.button:active,
+.button2:active,
+.button3:active {
+    transform: translateY(4px);
+    /* Mueve el botón hacia abajo al pulsar */
+}
+
+#musica2 {
+    visibility: hidden;
+}
+
+#ventana-emergente2 {
+    display: none;
+    background: white;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+}
+
+.cerrar-btn {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 18px;
+    background: pink;
+}
