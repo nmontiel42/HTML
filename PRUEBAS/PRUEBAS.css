@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(pink, white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+p.bigger {
+    font-size: 45px;
+}
+
+.button {
+    font-size: 50px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    color: black;
+    border-radius: 25px;
+    transition: transform 0.3s ease;
+}
+
+.button:active {
+    transform: translateY(4px);
+}
+
+#ventana-emergente {
+    display: none;
+    background: white;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+}
+
+.cerrar-btn {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 18px;
+}
+
+#musica {
+    visibility: hidden;
+}

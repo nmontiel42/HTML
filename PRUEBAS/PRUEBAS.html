@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Esto es una prueba</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web-audio-api/7.4.0/web-audio-api.min.js"></script>
+
+    <script src="PRUEBAS.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="PRUEBAS.css">
+
+</head>
+
+<body>
+    <audio id="musica" controls>
+        <source src="/home/nekane/Descargas/The Weeknd - Call Out My Name (Official Audio).mp3" type="audio/mpeg">
+    </audio>
+    <div id="ventana-emergente">
+        <button class="cerrar-btn" onclick="cerrarVentanaEmergente()">Cerrar</button>
+        <h1>Esto es un titulo de prueba</h1>
+        <p>Esto es un contenido de prueba</p>
+    </div>
+    <p class="bigger">ESTO ES UNA PRUEBA</p>
+    <div style="display: flex; justify-content: center">
+        <button class="button" onclick="document.getElementById('musica').play(); mostrarVentanaEmergente()">Prueba 1</button>
+    </div>
+
+</body>
+
+</html>
+
