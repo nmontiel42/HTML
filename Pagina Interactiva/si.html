@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegiste SI</title>
+
+    <script src="scriptPrincipal.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="si.css">
+
+    <link rel="icon"
+        href="https://imgs.search.brave.com/sT9eaHdYSDKqhaJAzR9WMtxI0KrOcEY18fJsSZ2DyTs/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudmV4ZWxzLmNv/bS9tZWRpYS91c2Vy/cy8zLzI4MzYzMy9p/c29sYXRlZC9wcmV2/aWV3L2U3MGZiY2Zj/MjI4ZDQ2MTg0YmI5/OGYwMWZmMzExNGE3/LWljb25vLWRlLWNv/cmF6YS1uLWRlLWFt/b3ItZGUtc2FuLXZh/bGVudGEtbi5wbmc"
+        type="image/x-icon">
+
+</head>
+
+<body>
+    <div class="container">
+        <audio id="musica2" controls>
+            <source src="Musica/Rick Astley - Never Gonna Give You Up (Official Music Video).mp3" type="audio/mpeg">
+        </audio>
+        <div id="ventana-emergente2">
+            <h1>No te puedes librar =)</h1>
+            <img src="https://imgs.search.brave.com/_KRzriEqFcIeFYGU8xeqmmUpDJdXTAZe7RRzUxjJKC0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS50ZW5vci5jb20v/OWxma091YUZERHNB/QUFBQy9nYXRvcy1i/YWlsYW5kby5naWY.gif">
+            <button class="cerrar-btn" onclick="cerrarVentanaEmergente2()">X</button>
+        </div>
+        <p class="bigger">Pues me debes una hamburguesa <3 </p>
+                <img class="cat"
+                    src="https://imgs.search.brave.com/sRdeghujlnEBTuFiqACWXGp4KsVMws62kAIvFPnI15c/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9ibG9n/LnZpY2Vuc3ZpdmVz/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAxOS8wMi9HQVRP/Ny5naWY.gif">
+                <br>
+                <button class="button" onclick="document.getElementById('musica2').play(); mostrarVentanaEmergente2()">Librarte de la hamburguesa</button>
+                <button class="button2" onclick="manejarAceptar()">Aceptar tu destino</button>
+                <br>
+                <button class="button3" onclick="manejarVolver()">He cambiado de idea</button>
+    </div>
+
+</body>
+
+</html>
