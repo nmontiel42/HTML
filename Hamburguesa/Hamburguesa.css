@@ -1,0 +1,27 @@
+body {
+    background: linear-gradient(#ffa500, #d3d3d3);
+}
+.dancing-character {
+    position: absolute;
+    width: 300px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.left {
+    left: 10%;
+}
+
+.right {
+    right: 10%;
+}
+img {
+    border-radius: 50%;
+}
+p.bigger {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+p.bigger b {
+    font-size: 25px;
+}
